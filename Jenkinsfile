@@ -1,4 +1,4 @@
-node('linux') {
+node('.linux') {
     def projectRepo = 'tranhuucuong91'
     def appName = 'fibo'
     def imageTag = "${projectRepo}/${appName}:${env.BRANCH_NAME}.${env.BUILD_NUMBER}"
